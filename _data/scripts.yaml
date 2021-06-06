@@ -2841,10 +2841,10 @@
   description: "compress logfiles then they're rotated, modified from original logcompress.pl to use perl modules instead"
   filename: logcompress_perl.pl
   license: 'Public Domain'
-  modified: '2017-01-07 11:52:46'
+  modified: '2021-04-10 11:44:52'
   name: logcompress_perl
   url: http://irssi.org/
-  version: '0.02'
+  version: '0.04'
 -
   authors: ferret
   commands: 'logtail logview'
@@ -2983,6 +2983,16 @@
   name: matryoshka
   url: https://scripts.irssi.org/
   version: '0.01'
+-
+  authors: 'Haw Loeung'
+  commands: 'matterircd_complete_msgthreadid_cache_dump matterircd_complete_nick_cache_dump matterircd_complete_replied_cache_dump message_thread_id_search nicknames_search'
+  contact: hloeung/Freenode
+  description: 'Adds tab completion for Matterircd message threads'
+  filename: matterircd_complete.pl
+  license: GPL
+  modified: '2020-12-13 03:22:53'
+  name: 'Matterircd Tab Auto Complete'
+  version: '1.00'
 -
   authors: Nei
   commands: requery
@@ -3203,10 +3213,10 @@
   description: 'control irssi using mouse clicks and gestures'
   filename: mouse.pl
   license: 'GPLv2 or later'
-  modified: '2019-07-05 03:00:28'
+  modified: '2021-03-05 18:26:50'
   name: mouse
   url: http://wouter.coekaerts.be/irssi/
-  version: 1.1.1
+  version: 1.1.2
 -
   authors: 'Wouter Coekaerts'
   commands: mouse_xterm
@@ -4385,9 +4395,9 @@
   description: 'An irssi adaptation of securequery.mrc found in the Acidmax mIRC script. :), now with multiserver support'
   filename: securemsg.pl
   license: GPLv2
-  modified: '2017-04-07 16:34:31'
+  modified: '2021-05-18 14:48:18'
   name: securemsg
-  version: '2.1'
+  version: 2.3.0
 -
   authors: "Marcin 'Qrczak' Kowalczyk"
   commands: 'forget listen say_seen seen'
@@ -4432,13 +4442,13 @@
 -
   authors: 'Rocco Caputo (dngor), Nei'
   contact: 'rcaputo@cpan.org, Nei @ anti@conference.jabber.teamidiot.de'
-  description: 'Irssi 1.3 settings notes and documentation'
+  description: 'Irssi 1.3.1 settings notes and documentation'
   filename: settingshelp.pl
   license: 'CC BY-SA 2.5, http://creativecommons.org/licenses/by-sa/2.5/'
-  modified: '2019-06-25 11:25:28'
+  modified: '2021-04-12 18:20:42'
   modules: LWP::Simple
   name: settingshelp
-  version: '1.3'
+  version: 1.3.1
 -
   authors: 'Marcin Rozycki'
   commands: '42.pl shortenurl'
@@ -5160,16 +5170,16 @@
   url: http://toxcorp.com/irc/irssi/urlfeed/
   version: '1.31'
 -
-  authors: 'David Leadbeater'
+  authors: 'David Leadbeater, Thorsten Scherf'
   commands: url
-  contact: dgl@dgl.cx
+  contact: 'dgl@dgl.cx, tscherf@redhat.com'
   description: 'Captures urls said in channel and private messages and saves them to a file, also adds a /url command which loads the last said url into a browser.'
   filename: urlgrab.pl
   license: 'GNU GPLv2 or later'
-  modified: '2017-09-06 16:06:47'
+  modified: '2021-02-21 17:38:59'
   name: urlgrab
   url: http://irssi.dgl.cx/
-  version: '0.4'
+  version: '0.5'
 -
   authors: 'David Leadbeater'
   contact: dgl@dgl.cx
